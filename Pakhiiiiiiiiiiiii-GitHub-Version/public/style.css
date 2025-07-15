@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background: #e6f2ff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#login, #chat {
+  padding: 20px;
+}
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+}
+button {
+  padding: 10px 20px;
+  background: #3399ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+#msgs {
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px;
+  background: #ffffff;
+  height: 300px;
+  overflow-y: auto;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.input-area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
